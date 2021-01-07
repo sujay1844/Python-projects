@@ -1,3 +1,6 @@
+# Since I know Java, I know about conditional statements and loops
+# So I just learned the syntax of them in Python
+
 print("Hello! Welcome to Pasadena")
 Array = ["Sheldon", "Leonard", "Penny", "Rajesh"]
 for i in range(0,len(Array)):
