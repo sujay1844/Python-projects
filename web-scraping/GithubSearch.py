@@ -19,6 +19,7 @@ soup = BeautifulSoup(req.text, "html.parser")
 # Set of words whose results we want to avoid
 exceptions = ["/topics","/search","/login","https://","/features","/mobile","/customer-stories","/security","/team","/enterprise","/explore","/collections","/trending","#start","/join","/marketplace","/pricing","/nonprofit","/stargazers","/issues"]
 
+repos = []
 # printing the repo names
 for link in soup.find_all('a'):
 	repo_name = link.get("href")
