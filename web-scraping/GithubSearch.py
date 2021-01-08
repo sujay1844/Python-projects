@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 import requests
 import argparse
 
+# We receive the search term as an arguement
 parser = argparse.ArgumentParser(description='A search engine for Github.')
 parser.add_argument("search_term", help="Enter the search term")
-
 args = parser.parse_args()
 str = args.search_term
 
